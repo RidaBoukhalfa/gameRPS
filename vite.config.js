@@ -7,5 +7,5 @@ export default defineConfig({
     host: true,      // Enables access from other devices on your network
     port: 5173       // Optional (default is 5173)
   },
-  base: '/RSP_Game'
+  base: '/gameRPS/', // Set the base path for the application
 });
