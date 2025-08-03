@@ -1,0 +1,36 @@
+.computer-container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.choice-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.choice-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choice-button:hover {
+  background-color: #f0f0f0;
+}
+
+.result-text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

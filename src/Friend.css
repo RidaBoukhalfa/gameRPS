@@ -1,0 +1,73 @@
+.friend-container {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.friend-title {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.friend-subtitle {
+  font-size: 1.3rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.choice-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.choice-buttons button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choice-buttons button:hover {
+  background-color: #0d6efd;
+}
+
+.selected-choice {
+  margin: 15px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.back-button,
+.done-button {
+  margin: 15px 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-button {
+  background-color: #6c757d;
+}
+
+.back-button:hover {
+  background-color: #495057;
+}
+
+.done-button:hover {
+  background-color: #218838;
+}
